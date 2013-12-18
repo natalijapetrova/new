@@ -1,4 +1,6 @@
 Todoapp::Application.routes.draw do
+   #get "projects/index"
+   resources :projects, except: [:show]
   devise_for :users
   resources :tasks, except: [:show]
 
