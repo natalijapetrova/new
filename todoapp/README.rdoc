@@ -1,0 +1,3 @@
+Max Schamber
+
+Todo-App, ein kleiner Editor für To-do - Aufgaben
