@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Todoapp::Application.config.secret_key_base = 'a91a999945c2a4a0aec116ac739d0ca536ed3e0ee163f9939cf7824ffb96a188df5fcf2e57b5e22149b000d5937bd707b6a032aa2a8f041904d135f0db684017'
+Todoapp::Application.config.secret_key_base = 'f70dc1c1cb2b71f76891466786cc727d9da19927ff14051b03e0a8d7d3b0e4100a0d966c9694772d3a346c2c92884eb2411092f43d547719a17acb2b240b7c9f'
