@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
- 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Todoapp</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <%= render 'layouts/navigation' %>
-	<div class="container">
-  <%= render 'layouts/messages' %>
-	<%= yield %>
-	</div>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Todo-App</a>
+    </div>
+  </div>
+</div>
+<div class="container">
+    <%= yield %>
+</div> <!-- /container -->
 
 </body>
+
 </html>
