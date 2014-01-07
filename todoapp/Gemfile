@@ -4,9 +4,11 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 
 # Heroku uses postgress data bases
+
 group :development do
 	gem 'sqlite3'
 end
+
 group :test do
 	gem 'sqlite3'
 end
