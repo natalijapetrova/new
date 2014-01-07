@@ -5,7 +5,16 @@ gem 'rails', '4.0.0'
 
 # Heroku uses postgress data bases
 group :development do
+  group :development do
   gem 'sqlite3'
+end
+group :test do
+  gem 'sqlite3'
+end
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
 end
 group :test do
   gem 'sqlite3'
