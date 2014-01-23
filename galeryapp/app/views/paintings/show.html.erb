@@ -1,0 +1,11 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @painting.name %>
+</p>
+
+<%= link_to 'Edit', edit_painting_path(@painting) %> |
+<%= link_to 'Back', paintings_path %>
+<%= image_tag @painting.image_url if @painting.image? %>
+<td><%= image_tag @painting.image_url(:normal) if @painting.image? %></td>
